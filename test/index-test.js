@@ -35,7 +35,7 @@ describe('makeInt(n)', function() {
   })
 
   it('assumes base 10', function() {
-    expect(makeInt('0')).toEqual(0)
+    expect(makeInt('22')).toEqual(22)
   })
 
   it('returns NaN as appropriate', function() {
